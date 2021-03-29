@@ -35,21 +35,6 @@ const GalleryLinks = () => {
         <h2>Galleries</h2>
         <div className="container">
           <div className="gallery-links-cards">
-            <Link to="/gallery/for-sale">
-              {/* renamed gallery/instagram/ to gallery/instagram/ using 'gatsby-plugin-rename-routes' */}
-              <div className="card">
-                <Image
-                  className="card-img-top"
-                  fluid={data.gallery.imports_link_image.childImageSharp.fluid}
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <div className="card-text">
-                    <h4>{data.gallery.imports_link_header}</h4>
-                  </div>
-                </div>
-              </div>
-            </Link>
             <Link to="/gallery/sold-flowerhorns">
               {/* renamed gallery/instagram/ to gallery/instagram/ using 'gatsby-plugin-rename-routes' */}
               <div className="card">

@@ -90,7 +90,13 @@ button {
   background-color: var(--off-red);
   text-align: center;
   display: flex;
-  height: 80vh;
+  height: 70vh;
+  letter-spacing: 0.07rem;
+}
+
+.shop-title {
+  margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
 .shop-hero > .shop-text {
@@ -101,7 +107,7 @@ button {
 }
 .shop-social > .socialIcon {
   display: inline-block;
-  margin: 15px 10px 15px 10px;
+  margin: 15px 10px 0px 10px;
 }
 
 .shop-text {

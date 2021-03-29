@@ -77,7 +77,6 @@ module.exports = {
       options: {
         rename: {
           "/gallery/instagram/": "/gallery/sold-flowerhorns",
-          "/gallery/forSale/": "gallery/for-sale",
         },
       },
     },
