@@ -7,14 +7,6 @@ import { Link } from "gatsby";
 const galleryButtonContent = graphql`
   {
     gallery: strapiGalleryLinksHomepage {
-      imports_link_header
-      imports_link_image {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
       previous_sales_link_title
       previous_sales_link_image {
         childImageSharp {

@@ -60,8 +60,8 @@ const imports = ({ data }) => {
             source={data.importsPage.text}
           />
           {/* below - change link to imports gallery ?? */}
-          <Link to="/gallery/">
-            <LearnMore label="View imports..." />
+          <Link to="/shop/">
+            <LearnMore label="View imports for sale..." />
           </Link>
 
           <hr />
