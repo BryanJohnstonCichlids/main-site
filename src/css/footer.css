@@ -12,6 +12,10 @@ footer {
 hr {
   background-color: var(--light-blue);
 }
+.icon__img {
+  margin: 0 auto 2rem auto;
+  width: 8rem;
+}
 
 footer > h3 {
   padding: 8px;

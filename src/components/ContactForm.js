@@ -43,11 +43,12 @@ const ContactForm = () => {
                   i
                 ></textarea>
               </div>
-              <div className="col-lg-1 col-md-1 col-sm-3 p-0">
-                <button type="submit" className="btn btn-outline-secondary">
-                  SUBMIT
-                </button>
-              </div>
+              <button
+                type="submit"
+                className="contact__btn btn btn-outline-secondary"
+              >
+                SUBMIT
+              </button>
             </form>
           </div>
         </div>

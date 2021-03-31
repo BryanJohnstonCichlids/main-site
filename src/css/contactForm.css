@@ -59,6 +59,10 @@ textarea[type="message"] {
 .form {
   flex-grow: 2;
 }
+.contact__btn {
+  margin-top: 1rem;
+}
+
 .form-elements {
   max-width: 600px;
   margin: auto;
