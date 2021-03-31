@@ -43,6 +43,6 @@
     "react-helmet": "^6.1.0",
     "react-markdown": "^5.0.3",
     "react-medium-image-zoom": "^4.3.1",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.3"
   }
 }
