@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import HeroTwo from "../components/HeroTwo";
+
 import AboutSection from "../components/AboutSection";
 import GalleryLinks from "../components/GalleryLinks.js";
 import DeliveryInfo from "../components/DeliveryInfo";
@@ -12,7 +14,8 @@ const index = () => {
     <Layout>
       <SEO title="Home" description="this is our home page" />
 
-      <Hero />
+      {/* <Hero /> */}
+      <HeroTwo />
       <AboutSection />
       <GalleryLinks />
       <ContactForm />

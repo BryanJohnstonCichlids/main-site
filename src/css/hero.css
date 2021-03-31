@@ -1,54 +1,42 @@
 /* The hero image */
-.hero-image {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.black-overlay {
-  display: -webkit-flex; /*Safari */
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 100%;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .hero-text {
-  width: 55%;
+  width: 75vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 h1.heading {
-  font-family: "Jost black";
+  font-family: "tillana";
   color: var(--orange-red);
   font-weight: 900;
   letter-spacing: 0.08em;
   word-spacing: 0.1em;
   line-height: 1.2em;
   text-transform: uppercase;
-  /* font-size: 40px; */
 }
 h2.subheading {
-  font-family: "Jost";
-  color: var(--light-blue);
+  font-family: "tillana";
+  color: var(--dark-blue);
   font-weight: bold;
   letter-spacing: 0.08em;
   word-spacing: 0.1em;
   line-height: 1.2em;
+  margin-top: 1rem;
 }
 
 .action-buttons {
-  margin-top: 50px;
+  margin: 2rem auto 2rem auto;
   font-family: "poppins";
   height: 3em;
-  margin-bottom: 30px;
+  width: 50vw;
 }
 
 .btn {
-  margin-right: 5px;
+  /* margin-right: 5px; */
   padding: 10px 20px;
-  width: 180px;
+  width: 100%;
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 3px;
@@ -81,7 +69,7 @@ h2.subheading {
 }
 
 /* secondary btn */
-
+/*
 .btn.btn-outline-secondary {
   color: white;
   border: 1px solid white;
@@ -107,7 +95,7 @@ h2.subheading {
 .btn.btn-outline-secondary.active {
   background: #007299;
   box-shadow: none;
-}
+} */
 
 a,
 a:link,
@@ -131,16 +119,15 @@ a:visited {
   .hero-image {
     height: vh;
   }
-  .heading {
+  /* .heading {
     margin-top: -100px;
-  }
-  .action-buttons {
+  } */
+  /* .action-buttons {
     margin: 3em 1em 0 3em;
-  }
+  } */
   .btn {
     width: 100%;
     margin-bottom: 0.5em;
-    margin-right: 0px;
     font-size: 1.3em;
     border-radius: 5px;
   }
