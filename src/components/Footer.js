@@ -11,7 +11,7 @@ const footerContent = graphql`
       company_summary
       contact_number
     }
-    icon: file(relativePath: { in: "icon.png" }) {
+    icon: file(relativePath: { in: "lg-icon.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
