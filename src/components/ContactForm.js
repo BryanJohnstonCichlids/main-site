@@ -13,8 +13,7 @@ const ContactForm = () => {
 
           <div className="col-lg-12 text-left">
             <form
-              action="https://formspree.io/f/mgepbjwj"
-              //change action address on completion
+              action="https://formspree.io/f/xayawrrd"
               method="POST"
               className="form-elements col-lg-12"
             >

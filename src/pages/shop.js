@@ -58,10 +58,7 @@ const shop = ({ data }) => {
             >
               <FontAwesomeIcon icon={faFacebook} size="4x" />
             </a>
-            <a
-              href="mailto: s.bloxham@hotmail.com"
-              className="email socialIcon"
-            >
+            <a href="mailto: bryan3183@gmail.com" className="email socialIcon">
               <FontAwesomeIcon icon={faEnvelope} size="4x" />
             </a>
             <a
